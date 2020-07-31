@@ -10,8 +10,8 @@ import CadastroCategoria from './pages/cadastro/categoria';
 const Pagina404 = () => (<div>Página 404</div>);
 
 ReactDOM.render(
+    // Adicionar outrs páginas para virar SPA 
   <BrowserRouter>
-    {/* Adicionar outrs páginas para virar SPA */}
     <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/cadastro/video" component={CadastroVideo} />

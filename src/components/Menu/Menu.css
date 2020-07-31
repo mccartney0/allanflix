@@ -1,5 +1,5 @@
 .Logo {
-    max-width: 168px;
+    max-width: 148px;
   }
   @media (max-width: 800px) {
     .Logo {
@@ -9,7 +9,7 @@
   
   .Menu {
     width: 100%;
-    height: 94px;
+    height: 75px;
     z-index: 100;
   
     display: flex;
@@ -23,13 +23,14 @@
     padding-left: 5%;
     padding-right: 5%;
   
-    background: var(--black);
-    border-bottom: 2px solid var(--primary);
+    background: var(--grayDark);
+    border-bottom: 1px solid var(--primary);
   }
   body {
-    --bodyPaddingTop: 94px;
+    --bodyPaddingTop: 75px;
     padding-top: var(--bodyPaddingTop);
   }
+  
   @media (max-width: 800px) {
     .Menu {
       height: 40px;
